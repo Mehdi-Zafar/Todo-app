@@ -1,0 +1,31 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "First Task",
+      "body": [
+        "This is the first task",
+        "Make sure you complete"
+      ],
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Second Task",
+      "body": [
+        "This is the second post",
+        "Make sure you complete"
+      ],
+      "completed": false
+    },
+    {
+      "id": 0.6074394998792392,
+      "title": "Meat and Veggies",
+      "body": [
+        "Chicken",
+        "Cabbage"
+      ],
+      "completed": false
+    }
+  ]
+}
