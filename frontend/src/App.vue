@@ -40,4 +40,22 @@ header {
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 991px) {
+  main {
+    padding: 2px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    padding: 2px 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  main {
+    padding: 2px 10px;
+  }
+}
 </style>

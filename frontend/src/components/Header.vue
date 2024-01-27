@@ -38,4 +38,10 @@ a {
   color: #30415b;
   font-weight: 600;
 }
+
+@media (max-width: 450px) {
+  nav {
+    flex-direction: column;
+  }
+}
 </style>

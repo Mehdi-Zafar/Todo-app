@@ -119,7 +119,7 @@ input {
   width: 100%;
   border: none;
   outline: none;
-  margin: 5px 0;
+  margin: 5px auto;
   padding: 10px;
   background-color: #fff;
   border-radius: 5px;
@@ -170,5 +170,11 @@ input {
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+@media (max-width: 575px) {
+  .input-container {
+    width: 90%;
+  }
 }
 </style>

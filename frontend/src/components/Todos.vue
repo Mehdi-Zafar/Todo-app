@@ -98,4 +98,17 @@ ul {
   color: #30415b;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .todos {
+    justify-content: center;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  div.todo-box {
+    width: clamp(200px, 90%, 280px);
+  }
+}
 </style>
